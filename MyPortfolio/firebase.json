@@ -1,0 +1,18 @@
+{
+  "hosting": {
+    "public": "dist",
+    "site": "kommirisettysrinivas",
+    "ignore": ["firebase.json", "/.*", "/node_modules/"],
+    "headers": [
+      {
+        "source": "/*.@(js|mjs|jsx|ts|tsx)",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "application/javascript"
+          }
+        ]
+      }
+    ]
+  }
+}
