@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 import mongoose from "mongoose";
+import page from "./routes/page";
 const app = express();
 app.use(express.json());
 app.use(cors());
@@ -14,6 +15,7 @@ mongoose
     console.log(err.message);
   });
 
+app.use("/user", page);
 app.get("/", (req, res) => {
   res.send("Hello");
 });

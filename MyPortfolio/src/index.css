@@ -14,8 +14,12 @@ body {
   font-family: "Space Grotesk", sans-serif;
   background: #000;
   color: #fff;
+  cursor: url("../src/assets/pointer.png"), auto;
 }
 
+a {
+  cursor: url("../src/assets/pointerfora.png"), auto;
+}
 .bg-img {
   background-image: url("../src/assets/bg-img5.png");
 }

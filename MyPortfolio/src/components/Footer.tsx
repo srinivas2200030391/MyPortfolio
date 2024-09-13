@@ -29,7 +29,7 @@ export default function Footer() {
         ))}
       </div>
       <p className="mt-8 text-center text-sm tracking-wide text-gray-400">
-        &copy;compileTab, All rights reserved.
+        &copy;SrinivasKommirisetty, All rights reserved.
       </p>
     </div>
   );
