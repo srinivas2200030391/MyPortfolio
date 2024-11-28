@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/sklogo.png";
 import { NAVIGATION_LINKS } from "../constants";
 import { FaTimes } from "react-icons/fa";
 import { FaBars } from "react-icons/fa6";
@@ -33,7 +33,7 @@ export default function NavBar() {
           <div className="flex items-center justify-between gap-6">
             <div>
               <a href="#">
-                <img src={logo} width={150} alt="logo" />
+                <img src={logo} width={130} alt="logo" />
               </a>
             </div>
             <div>

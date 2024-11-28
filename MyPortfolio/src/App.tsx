@@ -18,7 +18,7 @@ export default function App() {
   return (
     <div className="relative min-h-screen overflow-y-auto antialiased">
       <Helmet>
-        <title>Srinivas Kommirisetty</title>
+        <title>Srinivas Kommirisetty's Portfolio</title>
         <meta name="description" content="Description of my component" />
       </Helmet>
       <div className="fixed inset-0 bg-fixed bg-cover bg-center bg-img" />

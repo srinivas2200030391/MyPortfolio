@@ -1,4 +1,4 @@
-import logo from "../assets/logo.png";
+import logo from "../assets/sklogo.png";
 import { SOCIAL_MEDIA_LINKS } from "../constants";
 import { motion } from "framer-motion";
 export default function Footer() {

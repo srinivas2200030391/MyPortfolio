@@ -1,13 +1,13 @@
 import express from "express";
 import cors from "cors";
 import mongoose from "mongoose";
-import page from "./routes/page";
+//import page from "./routes/page.tsx";
 const app = express();
 app.use(express.json());
 app.use(cors());
 
 mongoose
-  .connect("mongodb://localhost:27017/")
+  .connect("mongodb://localhost:27017/MyPortfolio")
   .then(() => {
     console.log("Connected ");
   })
@@ -15,7 +15,7 @@ mongoose
     console.log(err.message);
   });
 
-app.use("/user", page);
+//app.use("/user", page);
 app.get("/", (req, res) => {
   res.send("Hello");
 });

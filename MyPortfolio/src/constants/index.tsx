@@ -1,9 +1,6 @@
 import {
-  FaXTwitter,
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaDiscord,
   FaInstagram,
   FaPython,
 } from "react-icons/fa6";
@@ -17,7 +14,7 @@ import projectImage6 from "../assets/project6.jpeg";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb, SiSpring} from "react-icons/si";
+import { SiMongodb, SiSpring } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoDjango, BiLogoPostgresql } from "react-icons/bi";
 
@@ -90,6 +87,34 @@ export const PROJECTS = [
     image: projectImage6,
     githubLink: "https://github.com/user/chat-application",
   },
+];
+
+export const CERTIFICATIONS = [
+  {
+    id: 1,
+    name: "Red Hat Certified Enterprise Developer",
+    description:
+      "EX-183 Certification",
+    image: projectImage1,
+    certificationLink: "https://www.credly.com/badges/61c2c1e1-c8d0-402c-8d80-2382b5c2a812/public_url",
+  },
+  {
+    id: 2,
+    name: "AWS Certified Cloud Practitioner",
+    description:
+      "AWS CP Certification",
+    image: projectImage2,
+    certificationLink: "",
+  },
+  {
+    id: 3,
+    name: "PCAP Certified Python Developer",
+    description:
+      "PCAP 31-03x Certification",
+    image: projectImage3,
+    certificationLink: "",
+  },
+
 ];
 
 export const BIO = [
@@ -185,27 +210,15 @@ export const EDUCATION = [
 
 export const SOCIAL_MEDIA_LINKS = [
   {
-    href: "https://x.com/",
-    icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
+    href: "https://www.instagram.com/srinivaskommirisetty_13/",
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
-    icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://github.com/",
+    href: "https://github.com/srinivas2200030391",
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "www.linkedin.com/in/kommirisettysrinivas",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];

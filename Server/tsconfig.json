@@ -17,5 +17,5 @@
     "jsx": "react-jsx"
   },
   "include": ["src"],
-  "files": ["server.tsx"] // Add at least one input file here
+  "files": ["api/index.tsx"] // Add at least one input file here
 }
