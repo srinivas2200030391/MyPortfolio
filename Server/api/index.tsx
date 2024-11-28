@@ -6,14 +6,14 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-mongoose
-  .connect("mongodb://localhost:27017/MyPortfolio")
-  .then(() => {
-    console.log("Connected ");
-  })
-  .catch((err) => {
-    console.log(err.message);
-  });
+// mongoose
+//   .connect("mongodb://localhost:27017/MyPortfolio")
+//   .then(() => {
+//     console.log("Connected ");
+//   })
+//   .catch((err) => {
+//     console.log(err.message);
+//   });
 
 //app.use("/user", page);
 app.get("/", (req, res) => {
