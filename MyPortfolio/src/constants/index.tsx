@@ -32,7 +32,7 @@ export const HERO = {
   name: "Srinivas Kommirisetty",
   greet: "Hello there! 👋🏻",
   description:
-    "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
+    "I am a passionate full stack developer skilled in React, Next JS and Spring Boot, focused on building engaging and efficient web applications. I love turning ideas into impactful digital experiences.",
 };
 
 export const PROJECTS = [
@@ -46,13 +46,14 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    name: "University-Event-Management-System",
+    name: "Code Theatre",
     description:
-      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
+      "An online code editor supporting various programming languages, enabling users to write, edit, and run code in real-time. Built with a focus on collaboration and an intuitive user interface.",
     image: projectImage2,
     githubLink:
-      "https://github.com/srinivas2200030391/University-Event-Management-System",
+      "https://github.com/srinivas2200030391/Code-Theatre",
   },
+
   {
     id: 3,
     name: "SoccKahootClone",
@@ -81,11 +82,11 @@ export const PROJECTS = [
   },
   {
     id: 6,
-    name: "Learning Portal",
+    name: "Online Art Gallery",
     description:
-      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
+      "A user-friendly online art gallery enabling artists to showcase and sell their art, curators to manage collections, and visitors to explore and purchase artwork. Developed using Spring Boot and Microservices for agility and resilience, ensuring seamless functionality even if individual services face interruptions.",
     image: projectImage6,
-    githubLink: "https://github.com/user/chat-application",
+    githubLink: "https://github.com/srinivas2200030391/OnlineArtGallery-JFSD",
   },
 ];
 
@@ -118,10 +119,11 @@ export const CERTIFICATIONS = [
 ];
 
 export const BIO = [
-  "Carl Frank studied computer science at the University of Technology,from which he graduated in 2010. Following his education, he honed his craft and expertise over the course of 10 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.",
-  "In 2021, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Carl Frank co-founded WebArtistry alongside his creative partner, Jane Doe. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.",
-  "As a multi-disciplinary frontend developer, Carl Frank brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS, and JavaScript to his proficiency in modern frameworks like React and Vue.js, Carl Frank possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.",
+  "I am Srinivas Kommirisetty, a computer science student at KL University with a CGPA of 9.69/10. I am passionate about using technology to create innovative and impactful web applications.",
+  "I have worked on projects like the 'Banking & Finance Management System' and 'AI Resume Maker,' where I utilized frameworks such as React, Django, and Spring Boot to deliver high-performance and user-friendly solutions.",
+  "As an active competitive coder, I enjoy organizing coding events and workshops while constantly improving my problem-solving and algorithmic skills. My expertise extends to technologies like MongoDB, PostgreSQL, and AWS Cloud, showcasing my adaptability and commitment to excellence."
 ];
+
 
 export const SKILLS = [
   {
@@ -169,44 +171,61 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    title: "Lead Frontend Developer",
-    company: "Innovative Tech Solutions",
-    duration: "July 2020 - Present",
+    title: "Competitive Coder",
+    company: "School of Competitive Coding",
+    duration: "August 2023 - Present",
     description:
-      "As the Lead Frontend Developer, I spearheaded the development of advanced web applications using cutting-edge technologies like React, Redux, and TypeScript. I worked closely with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and high-performance user experiences.",
+      "I completed 50 coding challenges in 6 months, enhancing problem-solving speed by 30%. I also led a recursion workshop for over 150 participants, improving their algorithmic implementation skills by 35%. Additionally, I organized 8 coding events, increasing member attendance by 40% and boosting algorithm quiz scores by 25%.",
   },
   {
-    title: "Frontend Engineer",
-    company: "Digital Creations",
-    duration: "February 2016 - June 2020",
+    title: "Academic & Skill Development Lead",
+    company: "KL Focus",
+    duration: "August 2023 - Present",
     description:
-      "At Digital Creations, I focused on building highly interactive and responsive web interfaces using HTML, CSS, JavaScript, and modern libraries like React. I collaborated closely with UX/UI designers to implement design changes that enhanced user engagement and satisfaction. My role involved optimizing website performance, ensuring cross-browser compatibility, and implementing SEO best practices. ",
+      "I organized and led technical events, achieving a 40% increase in student participation compared to the previous year. I conducted skill development sessions, resulting in an improvement in students’ average test scores from 65% to 88%. I also prepared detailed course handouts for Y24 students, aiding their academic performance.",
   },
   {
-    title: "Junior Web Developer",
-    company: "Bright Future Technologies",
-    duration: "August 2014 - January 2016",
+    title: "Project Developer",
+    company: "Independent Projects",
+    duration: "2023 - Present",
     description:
-      "In my role as a Junior Web Developer, I assisted in the development and maintenance of various web applications. I gained hands-on experience in utilizing HTML, CSS, and JavaScript to create user-friendly interfaces. I actively participated in team meetings, contributed to project planning, and collaborated with senior developers to implement new features.",
+      "I developed projects such as the 'Banking & Finance Management System' and 'AI Resume Maker,' utilizing frameworks like React, Django, and Spring Boot. These projects emphasized performance, security, and user-friendly design, addressing real-world challenges with innovative solutions.",
   },
+  {
+    title: "Event Organizer",
+    company: "SOCC Club",
+    duration: "2024 - Present",
+    description:
+      "I contributed to organizing and managing several technical and coding events under the SOCC Club banner. These events focused on advanced problem-solving techniques, fostering collaboration among participants and enhancing their skills in competitive coding.",
+  }
 ];
+
 
 export const EDUCATION = [
   {
-    degree: "Bachelor of Engineering in Computer Science",
+    degree: "Bachelor of Technology in Computer Science",
     institution: "KL University",
-    duration: "June 2022 - May 2026",
+    duration: "Expected 2026",
     description:
-      "Specialized in Human-Computer Interaction and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures. Graduated with honors.",
+      "Achieved a stellar CGPA of 9.69/10. Pursued academic coursework focused on Data Structures, Algorithms, and Full Stack Development. Actively involved in technical events and project development, showcasing skills in frameworks like React, Django, and Spring Boot. Participated in hackathons and workshops, honing problem-solving abilities and collaborating with peers on innovative solutions.",
   },
   {
-    degree: "Intermediate",
-    institution: "Sri Chaitanya Jr. Clg",
+    degree: "Intermediate (MPC)",
+    institution: "Sri Chaitanya Jr. College",
     duration: "June 2020 - April 2022",
     description:
-      "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
+      "Graduated with a remarkable score of 97.1%. Focused on foundational concepts in Mathematics, Physics, and Chemistry while developing problem-solving and analytical skills. Engaged in various extracurricular activities and leadership roles, fostering teamwork and communication.",
   },
+  {
+    degree: "Secondary School (SSC)",
+    institution: "XYZ High School",
+    duration: "June 2018 - March 2020",
+    description:
+      "Graduated with distinction, scoring 95% in the board exams. Developed strong foundational knowledge in subjects like Mathematics, Science, and English. Participated in various inter-school competitions, demonstrating leadership and organizational skills.",
+  }
 ];
+
+
 
 export const SOCIAL_MEDIA_LINKS = [
   {

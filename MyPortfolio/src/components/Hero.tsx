@@ -29,7 +29,7 @@ export default function Hero() {
           src={srinivasImg}
           width={430}
           style={{
-            transform: "translateX(0rem) translateY(-0.1rem)",
+            transform: "translateX(5rem) translateY(-0.1rem)",
 
           }}
           alt="Srinivas Kommirisetty"
