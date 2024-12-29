@@ -1,9 +1,4 @@
-import {
-  FaGithub,
-  FaLinkedin,
-  FaInstagram,
-  FaPython,
-} from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaInstagram, FaPython } from "react-icons/fa6";
 
 import projectImage1 from "../assets/project1.jpeg";
 import projectImage2 from "../assets/project2.jpeg";
@@ -25,6 +20,7 @@ export const NAVIGATION_LINKS = [
   { label: "Certifications", href: "#certifications" },
   { label: "Work Experience", href: "#work" },
   { label: "Education", href: "#education" },
+  { label: "Resume", href: "#resume" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -50,8 +46,7 @@ export const PROJECTS = [
     description:
       "An online code editor supporting various programming languages, enabling users to write, edit, and run code in real-time. Built with a focus on collaboration and an intuitive user interface.",
     image: projectImage2,
-    githubLink:
-      "https://github.com/srinivas2200030391/Code-Theatre",
+    githubLink: "https://github.com/srinivas2200030391/Code-Theatre",
   },
 
   {
@@ -94,36 +89,32 @@ export const CERTIFICATIONS = [
   {
     id: 1,
     name: "Red Hat Certified Enterprise Developer",
-    description:
-      "EX-183 Certification",
+    description: "EX-183 Certification",
     image: projectImage1,
-    certificationLink: "https://www.credly.com/badges/61c2c1e1-c8d0-402c-8d80-2382b5c2a812/public_url",
+    certificationLink:
+      "https://www.credly.com/badges/61c2c1e1-c8d0-402c-8d80-2382b5c2a812/public_url",
   },
   {
     id: 2,
     name: "AWS Certified Cloud Practitioner",
-    description:
-      "AWS CP Certification",
+    description: "AWS CP Certification",
     image: projectImage2,
     certificationLink: "",
   },
   {
     id: 3,
     name: "PCAP Certified Python Developer",
-    description:
-      "PCAP 31-03x Certification",
+    description: "PCAP 31-03x Certification",
     image: projectImage3,
     certificationLink: "",
   },
-
 ];
 
 export const BIO = [
   "I am Srinivas Kommirisetty, a computer science student at KL University with a CGPA of 9.69/10. I am passionate about using technology to create innovative and impactful web applications.",
   "I have worked on projects like the 'Banking & Finance Management System' and 'AI Resume Maker,' where I utilized frameworks such as React, Django, and Spring Boot to deliver high-performance and user-friendly solutions.",
-  "As an active competitive coder, I enjoy organizing coding events and workshops while constantly improving my problem-solving and algorithmic skills. My expertise extends to technologies like MongoDB, PostgreSQL, and AWS Cloud, showcasing my adaptability and commitment to excellence."
+  "As an active competitive coder, I enjoy organizing coding events and workshops while constantly improving my problem-solving and algorithmic skills. My expertise extends to technologies like MongoDB, PostgreSQL, and AWS Cloud, showcasing my adaptability and commitment to excellence.",
 ];
-
 
 export const SKILLS = [
   {
@@ -197,9 +188,8 @@ export const EXPERIENCES = [
     duration: "2024 - Present",
     description:
       "I contributed to organizing and managing several technical and coding events under the SOCC Club banner. These events focused on advanced problem-solving techniques, fostering collaboration among participants and enhancing their skills in competitive coding.",
-  }
+  },
 ];
-
 
 export const EDUCATION = [
   {
@@ -222,10 +212,8 @@ export const EDUCATION = [
     duration: "June 2018 - March 2020",
     description:
       "Graduated with distinction, scoring 95% in the board exams. Developed strong foundational knowledge in subjects like Mathematics, Science, and English. Participated in various inter-school competitions, demonstrating leadership and organizational skills.",
-  }
+  },
 ];
-
-
 
 export const SOCIAL_MEDIA_LINKS = [
   {
