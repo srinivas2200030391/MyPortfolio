@@ -99,7 +99,7 @@ export const CERTIFICATIONS = [
     name: "AWS Certified Cloud Practitioner",
     description: "AWS CP Certification",
     image: projectImage2,
-    certificationLink: "",
+    certificationLink: "https://www.credly.com/badges/30db5aae-1858-453b-a5eb-5e762b3fbc92/public_url",
   },
   {
     id: 3,
