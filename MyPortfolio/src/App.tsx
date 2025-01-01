@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import { Helmet } from "react-helmet";
+import { HelmetProvider } from "react-helmet-async";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
@@ -17,10 +17,10 @@ import Certifications from "./components/Certifications";
 export default function App() {
   return (
     <div className="relative min-h-screen overflow-y-auto antialiased">
-      <Helmet>
+      <HelmetProvider>
         <title>Srinivas Kommirisetty's Portfolio</title>
         <meta name="description" content="Description of my component" />
-      </Helmet>
+      </HelmetProvider>
       <div className="fixed inset-0 bg-fixed bg-cover bg-center bg-img" />
       <div className="relative z-10 flex flex-col items-center p-4 space-y-8 container mx-auto">
         <Suspense fallback={<Audio height={80} width={80} />}>
