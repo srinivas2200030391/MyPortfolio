@@ -28,7 +28,7 @@ export default function NavBar() {
   const [pdfError, setPdfError] = useState<string | null>(null);
   const [scale, setScale] = useState(1.0);
 
-  const pdfPath = "/Srinivas OverLeaf Resume.pdf";
+  const pdfPath = "/Srinivas Full Stack Developer Resume.pdf";
 
   useEffect(() => {
     if (isResumeModalOpen) {

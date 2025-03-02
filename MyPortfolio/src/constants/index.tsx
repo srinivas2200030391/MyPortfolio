@@ -10,7 +10,7 @@ import projectImage6 from "../assets/project6.jpeg";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb, SiSpring } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
+import { FaAws, FaJava, FaJs, FaNodeJs } from "react-icons/fa";
 import { BiLogoDjango, BiLogoPostgresql } from "react-icons/bi";
 
 export const NAVIGATION_LINKS = [
@@ -26,17 +26,19 @@ export const NAVIGATION_LINKS = [
 
 export const HERO = {
   name: "Srinivas Kommirisetty",
-  greet: "Hello there! 👋🏻",
+  greet: "Hello there! 👋",
   description:
-    "I am a passionate full stack developer skilled in React, Next JS and Spring Boot, focused on building engaging and efficient web applications. I love turning ideas into impactful digital experiences.",
+    "I’m a Full Stack Developer skilled in React, Next.js, and Spring Boot, with a passion for building scalable and efficient web applications. I love solving complex problems, optimizing performance, and creating seamless digital experiences.",
 };
+
+
 
 export const PROJECTS = [
   {
     id: 1,
     name: "Personal Portfolio",
     description:
-      "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
+      "A sleek and responsive portfolio website built with React and Tailwind CSS, showcasing my skills, projects, and achievements.",
     image: projectImage1,
     githubLink: "https://github.com/srinivas2200030391/MyPortfolio",
   },
@@ -44,33 +46,32 @@ export const PROJECTS = [
     id: 2,
     name: "Code Theatre",
     description:
-      "An online code editor supporting various programming languages, enabling users to write, edit, and run code in real-time. Built with a focus on collaboration and an intuitive user interface.",
+      "An advanced online code editor integrated with AI (Gemini) and Convex DB, allowing users to write, edit, and run code in real-time with authentication powered by Clerk.",
     image: projectImage2,
     githubLink: "https://github.com/srinivas2200030391/Code-Theatre",
   },
-
   {
     id: 3,
-    name: "SoccKahootClone",
+    name: "QuizCraft (Kahoot Clone)",
     description:
-      "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
+      "A real-time quiz platform built with the MERN stack, enabling users to create, share, and participate in quizzes with enhanced performance using Node.js caching.",
     image: projectImage3,
     githubLink: "https://github.com/srinivas2200030391/SoccKahootClone",
   },
   {
     id: 4,
-    name: "Banking-Finance-Management-System",
+    name: "Banking & Finance Management System",
     description:
-      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
+      "A secure and efficient banking solution utilizing MongoDB for data storage, reducing latency by 90%. Features include transaction management, user authentication, and analytics.",
     image: projectImage4,
     githubLink:
       "https://github.com/srinivas2200030391/Banking-Finance-Management-System",
   },
   {
     id: 5,
-    name: "Online Voting System Using Django",
+    name: "Online Voting System",
     description:
-      "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
+      "A secure and privacy-focused voting platform built with Django and PostgreSQL, ensuring integrity and anonymity in online elections.",
     image: projectImage5,
     githubLink:
       "https://github.com/srinivas2200030391/Online-Voting-System-Using-Django-SDP1",
@@ -79,11 +80,46 @@ export const PROJECTS = [
     id: 6,
     name: "Online Art Gallery",
     description:
-      "A user-friendly online art gallery enabling artists to showcase and sell their art, curators to manage collections, and visitors to explore and purchase artwork. Developed using Spring Boot and Microservices for agility and resilience, ensuring seamless functionality even if individual services face interruptions.",
+      "A microservices-based art gallery platform developed using Spring Boot, allowing artists to showcase, sell artwork, and curators to manage collections seamlessly.",
     image: projectImage6,
     githubLink: "https://github.com/srinivas2200030391/OnlineArtGallery-JFSD",
   },
+  {
+    id: 7,
+    name: "Visa Approval Prediction",
+    description:
+      "A machine learning model that predicts visa approval based on applicant details, analyzing historical data for better decision-making.",
+    image: projectImage1,
+    githubLink:
+      "https://github.com/srinivas2200030391/Visa-Approval-Prediction-Machine-Learning",
+  },
+  {
+    id: 8,
+    name: "DSA Visualizer",
+    description:
+      "A Next.js-based tool that visually demonstrates sorting and searching algorithms, helping users understand DSA concepts interactively.",
+    image: projectImage2,
+    githubLink: "https://github.com/srinivas2200030391/Dsa-Project",
+  },
+  {
+    id: 9,
+    name: "Shortify",
+    description:
+      "A minimalistic and efficient URL shortener that allows users to create short links and track usage statistics.",
+    image: projectImage3,
+    githubLink: "https://github.com/srinivas2200030391/Shortify",
+  },
+  {
+    id: 10,
+    name: "DSA Complexity Analyzer",
+    description:
+      "A tool designed to analyze the time complexity of code, helping developers understand performance implications and optimize algorithms.",
+    image: projectImage4,
+    githubLink:
+      "https://github.com/srinivas2200030391/DSA-Time-Complexity-Analyzer",
+  },
 ];
+
 
 export const CERTIFICATIONS = [
   {
@@ -99,7 +135,8 @@ export const CERTIFICATIONS = [
     name: "AWS Certified Cloud Practitioner",
     description: "AWS CP Certification",
     image: projectImage2,
-    certificationLink: "https://www.credly.com/badges/30db5aae-1858-453b-a5eb-5e762b3fbc92/public_url",
+    certificationLink:
+      "https://www.credly.com/badges/30db5aae-1858-453b-a5eb-5e762b3fbc92/public_url",
   },
   {
     id: 3,
@@ -111,85 +148,102 @@ export const CERTIFICATIONS = [
 ];
 
 export const BIO = [
-  "I am Srinivas Kommirisetty, a computer science student at KL University with a CGPA of 9.69/10. I am passionate about using technology to create innovative and impactful web applications.",
-  "I have worked on projects like the 'Banking & Finance Management System' and 'AI Resume Maker,' where I utilized frameworks such as React, Django, and Spring Boot to deliver high-performance and user-friendly solutions.",
-  "As an active competitive coder, I enjoy organizing coding events and workshops while constantly improving my problem-solving and algorithmic skills. My expertise extends to technologies like MongoDB, PostgreSQL, and AWS Cloud, showcasing my adaptability and commitment to excellence.",
+  "I'm Srinivas Kommirisetty, a Computer Science student at KL University with a CGPA of 9.73/10. Passionate about technology, I specialize in building scalable, high-performance web applications.",
+  "I’ve developed projects like 'Banking & Finance Management System' and 'AI Resume Maker,' leveraging React, Django, and Spring Boot to create efficient and user-friendly solutions.",
+  "As a competitive coder, I thrive on solving complex problems, organizing coding events, and mentoring others. My expertise spans MongoDB, PostgreSQL, AWS Cloud, and system optimization, reflecting my commitment to innovation and excellence.",
 ];
+
 
 export const SKILLS = [
   {
     icon: <FaPython className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "Python",
-    experience: "1.5+ years",
+    experience: "2+ years",
   },
   {
-    icon: <BiLogoPostgresql className="text-4xl text-sky-700 lg:text-5xl" />,
-    name: "PostgreSQL",
-    experience: "1+ year",
+    icon: <FaJava className="text-4xl text-cyan-400 lg:text-5xl" />,
+    name: "Java",
+    experience: "2+ years",
   },
   {
-    icon: <BiLogoDjango className="text-4xl text-sky-700 lg:text-5xl" />,
-    name: "Django",
-    experience: "1+ year",
-  },
-  {
-    icon: <SiSpring className="text-4xl text-sky-700 lg:text-5xl" />,
-    name: "Spring & Spring Boot",
-    experience: "0.5+ year",
-  },
-
-  {
-    icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
-    name: "React",
-    experience: "0.5+ years",
+    icon: <FaJs className="text-4xl text-cyan-400 lg:text-5xl" />,
+    name: "JavaScript",
+    experience: "2+ years",
   },
   {
     icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
     name: "Next.js",
-    experience: "0.5+ year",
+    experience: "1+ years",
   },
   {
-    icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
-    name: "MongoDB",
-    experience: "0.5+ years",
+    icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
+    name: "React",
+    experience: "1.5+ years",
   },
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
     name: "Node.js",
-    experience: "0.5+ years",
+    experience: "1+ years",
+  },
+  {
+    icon: <BiLogoDjango className="text-4xl text-sky-700 lg:text-5xl" />,
+    name: "Django",
+    experience: "1.5+ years",
+  },
+  {
+    icon: <SiSpring className="text-4xl text-sky-700 lg:text-5xl" />,
+    name: "Spring & Spring Boot",
+    experience: "1+ years",
+  },
+  {
+    icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
+    name: "MongoDB",
+    experience: "1+ years",
+  },
+  {
+    icon: <BiLogoPostgresql className="text-4xl text-sky-700 lg:text-5xl" />,
+    name: "PostgreSQL",
+    experience: "1.5+ years",
+  },
+  {
+    icon: <FaAws className="text-4xl text-cyan-400 lg:text-5xl" />,
+    name: "AWS",
+    experience: "1+ years",
   },
 ];
+
 
 export const EXPERIENCES = [
   {
     title: "Competitive Coder",
-    company: "School of Competitive Coding",
-    duration: "August 2023 - Present",
+    company: "School of Competitive Coding (SOCC)",
+    duration: "Aug 2023 - Present",
     description:
-      "I completed 50 coding challenges in 6 months, enhancing problem-solving speed by 30%. I also led a recursion workshop for over 150 participants, improving their algorithmic implementation skills by 35%. Additionally, I organized 8 coding events, increasing member attendance by 40% and boosting algorithm quiz scores by 25%.",
+      "Solved 50+ coding challenges in 6 months, improving problem-solving speed by 30%. Led a recursion workshop for 150+ participants, enhancing their algorithmic skills by 35%. Organized 8 coding events, increasing member engagement by 40% and boosting quiz scores by 25%.",
   },
   {
     title: "Academic & Skill Development Lead",
     company: "KL Focus",
-    duration: "August 2023 - Present",
+    duration: "Aug 2023 - Present",
     description:
-      "I organized and led technical events, achieving a 40% increase in student participation compared to the previous year. I conducted skill development sessions, resulting in an improvement in students’ average test scores from 65% to 88%. I also prepared detailed course handouts for Y24 students, aiding their academic performance.",
+      "Led technical events, increasing student participation by 40%. Conducted skill development sessions that raised students' average test scores from 65% to 88%. Created detailed course handouts for Y24 students, aiding their academic growth.",
   },
   {
-    title: "Project Developer",
+    title: "Full Stack Developer",
     company: "Independent Projects",
     duration: "2023 - Present",
     description:
-      "I developed projects such as the 'Banking & Finance Management System' and 'AI Resume Maker,' utilizing frameworks like React, Django, and Spring Boot. These projects emphasized performance, security, and user-friendly design, addressing real-world challenges with innovative solutions.",
+      "Developed applications like 'Banking & Finance Management System' and 'AI Resume Maker,' leveraging React, Django, and Spring Boot. Focused on performance optimization, security, and user-friendly design to address real-world challenges.",
   },
   {
     title: "Event Organizer",
-    company: "SOCC Club",
+    company: "School of Competitive Coding (SOCC)",
     duration: "2024 - Present",
     description:
-      "I contributed to organizing and managing several technical and coding events under the SOCC Club banner. These events focused on advanced problem-solving techniques, fostering collaboration among participants and enhancing their skills in competitive coding.",
+      "Managed and coordinated technical and coding events, fostering collaboration and enhancing problem-solving skills among participants. Designed workshops that introduced advanced coding techniques in a hands-on learning environment.",
   },
 ];
+
 
 export const EDUCATION = [
   {
@@ -197,7 +251,7 @@ export const EDUCATION = [
     institution: "KL University",
     duration: "Expected 2026",
     description:
-      "Achieved a stellar CGPA of 9.69/10. Pursued academic coursework focused on Data Structures, Algorithms, and Full Stack Development. Actively involved in technical events and project development, showcasing skills in frameworks like React, Django, and Spring Boot. Participated in hackathons and workshops, honing problem-solving abilities and collaborating with peers on innovative solutions.",
+      "Achieved a stellar CGPA of 9.73/10. Pursued academic coursework focused on Data Structures, Algorithms, and Full Stack Development. Actively involved in technical events and project development, showcasing skills in frameworks like React, Django, and Spring Boot. Participated in hackathons and workshops, honing problem-solving abilities and collaborating with peers on innovative solutions.",
   },
   {
     degree: "Intermediate (MPC)",
@@ -205,13 +259,6 @@ export const EDUCATION = [
     duration: "June 2020 - April 2022",
     description:
       "Graduated with a remarkable score of 97.1%. Focused on foundational concepts in Mathematics, Physics, and Chemistry while developing problem-solving and analytical skills. Engaged in various extracurricular activities and leadership roles, fostering teamwork and communication.",
-  },
-  {
-    degree: "Secondary School (SSC)",
-    institution: "XYZ High School",
-    duration: "June 2018 - March 2020",
-    description:
-      "Graduated with distinction, scoring 95% in the board exams. Developed strong foundational knowledge in subjects like Mathematics, Science, and English. Participated in various inter-school competitions, demonstrating leadership and organizational skills.",
   },
 ];
 

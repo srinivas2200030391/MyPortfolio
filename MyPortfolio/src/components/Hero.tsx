@@ -21,17 +21,14 @@ export default function Hero() {
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
-        className="flex justify-center">
+        className="flex justify-center md:translate-x-20 md:-translate-y-1">
         <motion.img
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
           src={srinivasImg}
           width={430}
-          style={{
-            transform: "translateX(5rem) translateY(-0.1rem)",
-
-          }}
+         
           alt="Srinivas Kommirisetty"
           className="rounded-3xl"
         />
